@@ -280,7 +280,7 @@
 }
 .token_text_head h2{
     color: #0e1726;
-    font-family: normal;
+    font-family: bold;
     font-size: 1.5rem;
     line-height:  2rem;
     letter-spacing: -.05em;
@@ -425,10 +425,12 @@
     display: flex;
     padding: 24px 0px;
     justify-content: space-between;
+    border-top: 1px solid rgb(213, 218, 221);
+    border-bottom: 1px solid rgb(213, 218, 221);
 }
 .collab_head h5{
     font-size: 18px;
-    font-family: normal;
+    font-family: bold;
     color: #0e1726;
 }
 .collab_head span::before{
@@ -440,10 +442,12 @@
     display: flex;
     padding: 24px 0px;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(213, 218, 221);
+    border-top: 1px solid rgb(213, 218, 221);
 }
 .build_app h5{
     font-size: 18px;
-    font-family: normal;
+    font-family: bold;
     color: #0e1726;
 }
 .build_app span::before{
@@ -455,10 +459,12 @@
     display: flex;
     padding: 24px 0px;
     justify-content: space-between;
+    border-top: 1px solid rgb(213, 218, 221);
+    border-bottom: 1px solid rgb(213, 218, 221);
 }
 .machine_learn h5{
     font-size: 18px;
-    font-family: normal;
+    font-family: bold;
     color: #0e1726;
 }
 .machine_learn span::before{
@@ -470,10 +476,12 @@
     display: flex;
     padding: 24px 0px;
     justify-content: space-between;
+    border-top: 1px solid rgb(213, 218, 221);
+    border-bottom: 1px solid rgb(213, 218, 221);
 }
 .arti_infra h5{
     font-size: 18px;
-    font-family: normal;
+    font-family: bold;
     color: #0e1726;
 }
 .arti_infra span::before{
@@ -935,4 +943,29 @@
     font-weight: 400;
     letter-spacing: -0.48px;
     object-fit: fill;
+}
+.glob{
+    background: url(img/globe.avif);
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgb(220, 238, 248);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    background-position: center;
+    padding: 56px 0px 80px 0px;
+}
+.global_box{
+    padding: 0px 16px 0px 16px;
+}
+.globe_infrastructure h1{
+    letter-spacing: -.05em;
+    font-size:  2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fafafd;
+    font-family: bold;
+    font-weight: 600;
 }
